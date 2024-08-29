@@ -8,13 +8,15 @@ p{
 
 
 .container{
-    width: 100;
+    width: 100%;
     height: 100vh;
     background-color: #e3f9ff;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px rgb(87, 7, 42);
 }
+
 
 .calculator{
     background: #3a4452;
@@ -46,7 +48,9 @@ form .display input{
     font-size: 45px;
     box-shadow: none;
 }
-
+form input.equal{
+    width: 145px;
+}
 
 form input.operator{
     color: blueviolet;}
